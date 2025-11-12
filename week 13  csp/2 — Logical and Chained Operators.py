@@ -35,10 +35,24 @@ else:
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
+question = int(input("Enter number:"))
+if 50 <= question < 100:
+    print("Your number is between 50 and 100.")
+else:
+    print("Your number is between 0 and 49.")
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+question1 = int(input("Enter number:"))
+if 0 <= question1 < 10:
+    print("Your number is 0 < 10.")
+else:
+    print("Your number is 10 <.")
+  
 # Use chained comparison to check if 3 < 4 < 5.
+a = 3
+b = 4
+c = 5
+print(a < b < c)
 
 # Challenge: Create a password rule using logical operators:
 
