@@ -3,6 +3,32 @@
 
 # Topics Covered:
 # Creating lists, indexing, slicing, appending, popping, sorting, reversing.
+my_list = [1, 2, 3, 4, 5] 
+print(my_list) # 1, 2, 3, 4, 5.
+print(type(my_list)) # <class 'list'>
+
+# accessing elements
+print(my_list[0])
+print(my_list[1:4])
+print(my_list[0:])
+
+# modifying lists
+# addding item to the end of the list
+my_list.append(6)
+print(my_list)
+my_list.extend([10, 11, 12, 13, 14])
+print(my_list)
+
+# add 500 more numbers to the list
+my_list.extend(list(range(15, 515)))
+print(my_list)
+my_list.extend(list(range(515, 1115)))
+print(my_list)
+
+# instead of creating separate variable we can put them in a list
+# this makes hte job easier when we need to
+# manage multiple variables
+# performance task answer.
 
 # Examples:
 
