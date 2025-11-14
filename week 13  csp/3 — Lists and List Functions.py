@@ -18,12 +18,44 @@ my_list.append(6)
 print(my_list)
 my_list.extend([10, 11, 12, 13, 14])
 print(my_list)
+ 
+new_list=['a', 'b', 'c']
+new_list.append('d')
+print(new_list)
 
-# add 500 more numbers to the list
-my_list.extend(list(range(15, 515)))
-print(my_list)
-my_list.extend(list(range(515, 1115)))
-print(my_list)
+#removing an item from the list
+removes_item=new_list.pop()
+print(removes_item)
+print(new_list)
+remove_second_item=new_list.pop(1)
+print(remove_second_item)
+print(new_list)
+
+#sorting numbers 
+numbers=[4,1,3,2]
+numbers.sort()
+print(numbers)
+
+#reversing the list 
+numbers.reverse()
+print(numbers)
+
+#insert values
+numbers.insert(2,10)
+print(numbers)
+third_list = [7, 8, 9]
+third_list[0] = 6
+print(third_list)
+
+import random 
+random_list = random.sample(range(1, 1000), 10)
+print(random_list)
+print(sorted(random_list))
+sorted_list = sorted(random_list)
+print(sorted_list)
+print(sorted_list) # reverse list
+# this will create a list of 10 unique random numbers 
+# between 1 and 99
 
 # instead of creating separate variable we can put them in a list
 # this makes hte job easier when we need to
